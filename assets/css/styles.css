@@ -185,6 +185,13 @@ background-image: url(../img/hero.jpg);
 		background-color: #00000024;
 		padding: 10px;
 	}
+	.txt-bg h1{
+		font-size: 50px;
+		line-height: 60px;
+	}	
+	.txt-bg h3{
+		font-size: 25px;
+	}
 
 }
 
@@ -194,6 +201,15 @@ background-image: url(../img/hero.jpg);
 		margin-top: 350px;
 		background-color: #ffffff1c;
 	  }
+
+	.txt-bg h1{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	
+	.txt-bg h3{
+		font-size: 22px;
+	}
 
 }
 
