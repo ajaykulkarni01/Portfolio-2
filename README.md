@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# Portfolio 2
 
 For this project, I've developed a portfolio page from scratch. 
 
