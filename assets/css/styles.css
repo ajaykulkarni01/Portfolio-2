@@ -275,9 +275,11 @@ background-image: url(../img/hero.jpg);
 .my-work{
 	background-color: #fff;
 }
+.btn-primary{
+	margin: 2px !important;
+}
 
 .card-text{
-
 	text-align: left !important;
 	padding-left: 0px !important;
 	margin-bottom: 10px !important;
