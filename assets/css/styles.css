@@ -27,6 +27,8 @@ a{
 
 a:hover{
 	opacity: 1;
+	color: #fff2c4!important;
+	text-decoration: none;
 }
 
 hr{
@@ -100,7 +102,7 @@ header{
 	color: #fff;
 	padding: 35px 100px 0;
 	background-color: #414a4f;
-	height: 90px;
+	height: 100px;
 }
 
 header h2{
@@ -274,53 +276,40 @@ background-image: url(../img/hero.jpg);
 	background-color: #fff;
 }
 
-.grid-portfolio {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 0 100px;
-	margin-top:-125px;
-	margin-bottom:125px;
-}
-  
-.item {
-	flex-basis: 25%;
-	position:relative;
-	padding: 7px;
-	height: 350px;
-	border-radius: 3px;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-	background-color: #333;
-	color:#ffffff;
-}
+.card-text{
 
-.item:hover {
-    transform: scale(0.97);
-    transition: 0.5s all ease;
+	text-align: left !important;
+	padding-left: 0px !important;
+	margin-bottom: 10px !important;
+}
+.card:hover{
+	transform: scale(1.05);
+	transition: 0.5s all ease;
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
-.item:first-child{
-	flex-basis: 100%;
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
-.grid-portfolio p{
-	font: normal 20px 'Open Sans', sans-serif;
-    text-align: center;
-    background-color: #414a4f;
-    padding: 10px;
+.jumbotron h1 {
+  font-weight: 300;
 }
 
-@media (max-width: 1000px){
-
-	.grid-portfolio{
-		padding: 5% 5%;
-	}
-	
-	.grid-portfolio .item{
-		flex-basis: 100%;
-	}
+.jumbotron .container {
+  max-width: 40rem;
 }
 
 
