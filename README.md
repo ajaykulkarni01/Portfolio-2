@@ -5,7 +5,7 @@ This is my updated Portfolio with links of various applications which I have dev
 
 ## 💡 Updated links
 
-The Portfoolio page is now have:
+The Portfolio page is updated with:
 - Contact information:
   - Email 
   - Phone number
