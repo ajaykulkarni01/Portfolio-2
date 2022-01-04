@@ -1,6 +1,6 @@
 # Updated Portfolio
 
-This is my updated Portfolio with links of various applications which I have developed during the first 8 weeks of my coding bootcamp.
+This is my updated Portfolio with links of group projects.
 
 
 ## 💡 Updated links
